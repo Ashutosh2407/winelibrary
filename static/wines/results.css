@@ -1,0 +1,79 @@
+p{
+    font-size: 25px;
+}
+
+.results{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 10px;
+    border-right-width: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+    height: 720px;
+}
+
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.playfair-display-tagline {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .cormorant-upright-light {
+    font-family: "Cormorant Upright", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .cormorant-upright-regular {
+    font-family: "Cormorant Upright", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cormorant-upright-medium {
+    font-family: "Cormorant Upright", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .cormorant-upright-semibold {
+    font-family: "Cormorant Upright", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .cormorant-upright-bold {
+    font-family: "Cormorant Upright", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+    
+  .libre-baskerville-regular {
+      font-family: "Libre Baskerville", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .libre-baskerville-bold {
+      font-family: "Libre Baskerville", serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    
+    .libre-baskerville-regular-italic {
+      font-family: "Libre Baskerville", serif;
+      font-weight: 400;
+      font-style: italic;
+    }
+    
+
+    
+  
