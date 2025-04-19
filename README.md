@@ -17,6 +17,32 @@ Instead of browsing endless wine lists, users can simply describe what they’re
 
 Built with Python, Django, and Scikit-learn, this project uses natural language processing to interpret flavor descriptions and match them with the right wines. It's a solo project aimed at making wine discovery intuitive, fun, and taste-driven.
 
+## 🛠️ Tech Stack
+
+**Backend:**
+- **Python** – Core language for backend logic
+- **Django** – Web framework for rapid development and clean architecture
+- **Scikit-learn** – Used for vectorization and similarity-based wine recommendation
+- **NLTK** – For natural language processing and text preprocessing
+
+**Frontend:**
+- **HTML/CSS** – Page structure and styling
+- **Bootstrap** – Responsive UI and quick design components
+
+**Performance:**
+- **Caching (Joblib)** – Speeds up repeated wine searches
+
+**Database:**
+- **SQLite** – Lightweight database used for development
+
+**Other Tools:**
+- **Git** – Version control
+- **Virtualenv** – Isolated Python environment
+
+
+
+
+
 ## 🧑‍🍷 Usage
 
 Once the server is running, you can start exploring WineLibrary via your browser.
