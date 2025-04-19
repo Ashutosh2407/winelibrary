@@ -5,6 +5,7 @@ Table of Contents
 - Getting Started
 - [Tech Stack](#tech-stack)
 - [Usage](#usage)
+- [How it Works](#how-it-works)
 - [Demo](#demo)
 - [Challenges](#challenges)
 - [License](#license)
@@ -15,3 +16,19 @@ Table of Contents
 Instead of browsing endless wine lists, users can simply describe what they’re craving — like *“fruity and bold with a hint of spice”* — and WineLibrary will return curated recommendations that match their palate.
 
 Built with Python, Django, and Scikit-learn, this project uses natural language processing to interpret flavor descriptions and match them with the right wines. It's a solo project aimed at making wine discovery intuitive, fun, and taste-driven.
+
+## 🧑‍🍷 Usage
+
+Once the server is running, you can start exploring WineLibrary via your browser.
+
+### 🔍 Search for Wines
+1. Navigate to the homepage.
+2. Enter a taste description (e.g., *“crisp and floral with citrus notes”*).
+3. Submit your query to receive wine recommendations tailored to your palate.
+
+### 💡 How It Works
+- The app uses **NLP techniques** to analyze your input and match it with wine flavor profiles.
+- Recommendations are generated using a **vector similarity model** built with Scikit-learn.
+- **Caching** is used to speed up repeat searches.
+
+**WineLibrary** is all about simplifying the wine discovery process — just type what you're in the mood for, and let the engine do the rest!
