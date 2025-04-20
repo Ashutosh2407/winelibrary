@@ -5,10 +5,20 @@
     margin-bottom: 2%;
 }
 .middle_container{
-    height: 770px;
-    background-image: url("wineyard.jpeg");
-    background-size: 100%;
+    /* height: 770px; */
+    /* background-image: url("wineyard.jpeg"); */
+    /* background-size: 100% 770px; */
     opacity: 0.9;
+}
+
+.container-header{
+  
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.container-footer{
+  height: 5%;
 }
 
 
