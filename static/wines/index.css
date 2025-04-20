@@ -1,3 +1,8 @@
+html,body{
+  height: 100%;
+  margin: 0;
+}
+
 .form-control{
     margin-left: 25%;
     margin-right: 24%;
@@ -5,11 +10,16 @@
     margin-bottom: 2%;
 }
 .middle_container{
-    /* height: 770px; */
-    /* background-image: url("wineyard.jpeg"); */
-    /* background-size: 100% 770px; */
+    height: 80vh;
+    min-height: 500px;
+    padding-top: 25vh;
+    background-image: url("wineyard.jpeg"); 
+    background-size: cover; 
+    background-position: center;
     opacity: 0.9;
 }
+
+
 
 .container-header{
   
@@ -17,9 +27,7 @@
   margin-right: 10%;
 }
 
-.container-footer{
-  height: 5%;
-}
+
 
 
 

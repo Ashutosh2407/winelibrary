@@ -16,48 +16,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-        <!-- <span class="fs-4">-->
-          <h3 class="great-vibes-regular">Wines Library</h3>
-      </a>
-
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="https://ashutosh2407.github.io/" class="nav-link">About Me</a></li>
-        <!-- <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li> -->
-        <!-- <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li> -->
-      </ul>
-    </header>
-  </div>
-    <u><h2 class = "playfair-display-tagline" style="margin-left: 5%; font-size: 40px;">Results</h2></u>
-    <div class="results">
-      <ul>
-        {% for v in result.values %}
-            <li>
-                <h2 class="cormorant-upright-semibold">{{ v.0 }} ({{ v.1 }})</h3>
-                <p class="cormorant-upright-medium">{{ v.2 }}</p>
-            </li>
-        {% endfor %}
-    </ul>
-    </div>
-    
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-4 d-flex align-items-center">
-          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-          </a>
-          <span class="mb-3 mb-md-0 text-body-secondary">2024 The Wine Library, Inc</span>
+  <div class="container-fluid p-0 m-0">
+    <div class="container container-header">
+      <header class="container py-3 border-bottom">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 text-center px-2 py-2 text-md-start mb-3 mb-md-0">
+            <a href="/" class="text-dark text-decoration-none">
+              <h3 class="great-vibes-regular" >Wines Library</h3>
+            </a>
+          </div>
+          <div class="col-12 col-md-6">
+            <ul class="nav justify-content-center justify-content-md-end">
+              <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="https://ashutosh2407.github.io/" class="nav-link">About Me</a></li>
+            </ul>
+          </div>
         </div>
-    
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-        </ul>
-      </footer>
+      </header>
+    </div>
+      <u><h2 class = "playfair-display-tagline" style="margin-left: 5%; font-size: 40px;">Results</h2></u><br>
+      <div class="middle_container">
+        <ul>
+          {% for v in result.values %}
+              <li>
+                  <h2 class="cormorant-upright-semibold">{{ v.0 }} ({{ v.1 }})</h3>
+                  <p class="cormorant-upright-medium">{{ v.2 }}</p>
+              </li>
+          {% endfor %}
+      </ul>
+      </div>
+      <div name="container-footer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">2024 The Wine Library, Inc</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </footer>
+      </div>
+      
+  </div>
 </body>
 </html>
