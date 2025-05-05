@@ -10,7 +10,7 @@ Built with Python, Django, and Scikit-learn, this project uses natural language 
 
 Table of Contents
 - [Overview](#overview)
-- [Tech Stack](#tech-stack)
+- [Tech Stack 🛠️](#tech-stack)
 - [Usage](#usage)
 - [How it Works](#how-it-works)
 
