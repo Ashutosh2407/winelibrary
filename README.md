@@ -49,7 +49,10 @@ Once the server is running, you can start exploring WineLibrary via your browser
 ### Search for Wines
 1. Navigate to the homepage.
 2. Enter a taste description (e.g., *“crisp and floral with citrus notes”*).
-3. Submit your query to receive wine recommendations tailored to your palate.
+3. Submit your query to receive wine recommendations tailored to your palate as shown below.
+
+<img width="1710" alt="image" src="https://github.com/user-attachments/assets/c7c2c64a-b42b-445e-aeed-20a6029d462c" />
+
 
 ## How It Works
 - The app uses **NLP techniques** to analyze your input and match it with wine flavor profiles.
