@@ -16,7 +16,7 @@ Table of Contents
 
 
 
-## 🛠️ Tech Stack
+## Tech Stack 🛠️
 
 **Backend:**
 - **Python** – Core language for backend logic
